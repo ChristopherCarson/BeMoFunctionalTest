@@ -4,7 +4,7 @@
 
 <head>
 
-<?php 
+    <?php 
 // grab the google analytics id and facebook pixel id here
 $gaID = $site->GoogleAnalyticsID();
 $fpID = $site->FacebookPixelID();
@@ -45,6 +45,15 @@ $fpID = $site->FacebookPixelID();
         });
         </script>
 
-        <title>BeMo Functional Test </title>
+        <! –– Create no-index tag ––>
+            <?php 
+            $noIndex = $site->noIndex();
 
-        <?= css("assets/css/index.css") ?>
+            if ($noIndex == 'true') {
+                echo "<meta name='robots' content='noindex'>";
+            }
+            ?>
+
+            <title>BeMo Functional Test </title>
+
+            <?= css("assets/css/index.css") ?>

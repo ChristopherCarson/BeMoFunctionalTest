@@ -5,11 +5,15 @@ fields:
   ContactFormEmail:
     label: Contact Form To Email
     type: text
+  noIndex:
+    label: turn no-index on for entire site?
+    type: toggle
+    text: yes
   GoogleAnalyticsID:
-    label: Google Analytics ID for Entire Site
+    label: Google Analytics ID for entire site
     type: text
   FacebookPixelID:
-    label: Facebook Pixel ID for Entire Site
+    label: Facebook Pixel ID for entire site
     type: text
   pages:
     headline: Pages

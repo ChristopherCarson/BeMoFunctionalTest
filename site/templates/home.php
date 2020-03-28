@@ -16,13 +16,13 @@
             </script>
 
             <! –– main image and text container ––>
-            <?php if($image = $page->image("cda-interview-guide.jpg")): ?>
+                <?php if($image = $page->image("cda-interview-guide.jpg")): ?>
                 <div id="container">
                     <img src="<?= $image->url() ?>" alt="">
                     <span class="centered">CDA Interview Guide
                         <hr />
-            </span>
-            <?php endif ?>
+                    </span>
+                    <?php endif ?>
 
                     <! –– load text ––>
                         <div class="homeText">
