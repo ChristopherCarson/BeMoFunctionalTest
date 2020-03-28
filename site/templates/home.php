@@ -1,7 +1,9 @@
 <?php snippet('header') ?>
 
+<?php if (!$kirby->user()) go('/login') ?>
+
 <script>
- $('#mainLink').addClass('currentLink');
+$('#mainLink').addClass('current');
 </script>
 
 <div id="container">

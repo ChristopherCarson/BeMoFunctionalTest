@@ -3,7 +3,23 @@
 <html lang="en">
 
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+        $('#titlelogo').css("background-color", "rgb(255, 255, 255, 0)");
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll > 100) {
+                $('#titlelogo').css("background-color", "rgb(255, 255, 255, .8)");
+            } else if (scroll < 100) {
+                $('#titlelogo').css("background-color", "rgb(255, 255, 255, 0)");
+            }
+            position = scroll;
+        });
+
+    });
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description"
         content="FREE Ultimate Guide to CDA Interviews: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Structured Interview. " />
@@ -30,8 +46,8 @@
                     <div id="nwrap">
                         <nav>
                             <ul class="navigation">
-                                <li id="mainLink"><a tabindex="1" href="home" rel="self">Main</a></li>
-                                <li id="contactLink"><a tabindex="2" href="contact" rel="self" >Contact Us</a></li>
+                                <li id="mainLink"><a  href="home" rel="self">Main</a></li>
+                                <li id="contactLink"><a  href="contact" rel="self">Contact Us</a></li>
                                 <?php if ($user = $kirby->user()): ?>
                                 <li>
                                     <a href="<?= url('logout') ?>">Logout</a>
