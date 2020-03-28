@@ -1576,7 +1576,7 @@ ie8 aside,
     header nav>ul>li>a#currentAncestor::after {
         content: "";
         display: block;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid rgb(17, 17, 17);
         margin: 0px auto;
         width: 4%;
         padding-bottom: 5px;
@@ -2016,14 +2016,6 @@ nav ul ul,
     text-align: center;
 }
 
-aside {
-    display: none;
-}
-
-.flexslider {
-    z-index: 1337;
-}
-
 #titlelogo h1 {
     font-size: 26px;
 }
@@ -2056,4 +2048,8 @@ hr {
     width: 1200px;
     color: white;
     background-color: white;
+}
+
+.currentLink {
+    background-color: rgb(226, 241, 16);
 }

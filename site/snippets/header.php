@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description"
         content="FREE Ultimate Guide to CDA Interviews: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Structured Interview. " />
@@ -30,8 +30,8 @@
                     <div id="nwrap">
                         <nav>
                             <ul class="navigation">
-                                <li><a href="home" rel="self" id="current">Main</a></li>
-                                <li><a href="contact" rel="self">Contact Us</a></li>
+                                <li id="mainLink"><a tabindex="1" href="home" rel="self">Main</a></li>
+                                <li id="contactLink"><a tabindex="2" href="contact" rel="self" >Contact Us</a></li>
                                 <?php if ($user = $kirby->user()): ?>
                                 <li>
                                     <a href="<?= url('logout') ?>">Logout</a>

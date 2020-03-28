@@ -1,5 +1,9 @@
 <?php snippet('header') ?>
 
+<script>
+ $('#mainLink').addClass('currentLink');
+</script>
+
 <div id="container">
 
     <?php if($image = $page->image("cda-interview-guide.jpg")): ?>
