@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'claviska' => array($vendorDir . '/claviska/simpleimage/src'),
+    'SendGrid' => array($vendorDir . '/sendgrid/php-http-client/lib'),
     'Michelf' => array($vendorDir . '/michelf/php-smartypants'),
 );

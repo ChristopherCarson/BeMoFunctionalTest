@@ -240,6 +240,8 @@ return array(
     'Psr\\Log\\Test\\DummyTest' => $vendorDir . '/psr/log/Psr/Log/Test/DummyTest.php',
     'Psr\\Log\\Test\\LoggerInterfaceTest' => $vendorDir . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
     'Psr\\Log\\Test\\TestLogger' => $vendorDir . '/psr/log/Psr/Log/Test/TestLogger.php',
+    'SendGrid\\Client' => $vendorDir . '/sendgrid/php-http-client/lib/SendGrid/Client.php',
+    'SendGrid\\Response' => $vendorDir . '/sendgrid/php-http-client/lib/SendGrid/Client.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'TrueBV\\Exception\\DomainOutOfBoundsException' => $vendorDir . '/true/punycode/src/Exception/DomainOutOfBoundsException.php',
     'TrueBV\\Exception\\LabelOutOfBoundsException' => $vendorDir . '/true/punycode/src/Exception/LabelOutOfBoundsException.php',
