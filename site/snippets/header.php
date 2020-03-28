@@ -45,15 +45,6 @@ $fpID = $site->FacebookPixelID();
         });
         </script>
 
-        <! –– Create no-index tag ––>
-            <?php 
-            $noIndex = $site->noIndex();
-
-            if ($noIndex == 'true') {
-                echo "<meta name='robots' content='noindex'>";
-            }
-            ?>
-
             <title>BeMo Functional Test </title>
 
             <?= css("assets/css/index.css") ?>

@@ -4,30 +4,39 @@
 <! –– place meta tags for page ––>
     <?php echo $page->MetaTags() ?>
 
-    <?php snippet('facebook') ?>
-    </head>
+    <! –– Create no-index tag ––>
+        <?php 
+        $noIndex = $page->noIndex();
 
-    <body>
-        <?php snippet('navigation') ?>
+        if ($noIndex == 'true') {
+            echo "<meta name='robots' content='noindex'>";
+        }
+        ?>
 
-        <! –– navigation menu jquery ––>
-            <script>
-            $('#mainLink').addClass('current');
-            </script>
+        <?php snippet('facebook') ?>
+        </head>
 
-            <! –– main image and text container ––>
-                <?php if($image = $page->image("cda-interview-guide.jpg")): ?>
-                <div id="container">
-                    <img src="<?= $image->url() ?>" alt="">
-                    <span class="centered">CDA Interview Guide
-                        <hr />
-                    </span>
-                    <?php endif ?>
+        <body>
+            <?php snippet('navigation') ?>
 
-                    <! –– load text ––>
-                        <div class="homeText">
-                            <?= $page->text()->kt() ?>
-                        </div>
+            <! –– navigation menu jquery ––>
+                <script>
+                $('#mainLink').addClass('current');
+                </script>
+
+                <! –– main image and text container ––>
+                    <?php if($image = $page->image("cda-interview-guide.jpg")): ?>
+                    <div id="container">
+                        <img src="<?= $image->url() ?>" alt="">
+                        <span class="centered">CDA Interview Guide
+                            <hr />
+                        </span>
+                        <?php endif ?>
+
+                        <! –– load text ––>
+                            <div class="homeText">
+                                <?= $page->text()->kt() ?>
+                            </div>
 
 
-                        <?php snippet('footer') ?>
+                            <?php snippet('footer') ?>

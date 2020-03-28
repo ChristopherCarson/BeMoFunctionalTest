@@ -9,6 +9,10 @@ columns:
         size: large
   - width: 1/2 
     fields:
+      noIndex:
+        label: turn no-index on for this page?
+        type: toggle
+        text: yes
       MetaTags:
         label: Meta Tags
         type: textarea

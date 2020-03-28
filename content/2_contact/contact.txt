@@ -10,6 +10,10 @@ Email: info@bemoacademicconsulting.com
 
 ----
 
+Noindex: true
+
+----
+
 Metatags:
 
 <meta name="author" content="name">
