@@ -12,37 +12,51 @@ $('#contactLink').addClass('current');
     <?= $page->text()->kt() ?>
 </div>
 
+<?php $email = $site->ContactFormEmail() ?>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+<script type="text/javascript">
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-           emailjs.init('YOUR_USER_ID');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate the contact number value
-                this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('contact_service', 'contact_template', this);
+var email = "<?php echo $email ?>";
+
+(function() {
+    emailjs.init('user_iNLf3EzcnOpYBuz2jXsPr');
+})();
+</script>
+<script type="text/javascript">
+window.onload = function() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        this.contact_number.value = Math.random() * 100000 | 0;
+        this.to_email.value = email
+        emailjs.sendForm('default_service', 'template_lCLMKCYL', this)
+            .then(() => {
+                $('#contact-message').append("<p>Email Successfully sent!</p>");
+            })
+            .catch((e) => {
+                $('#contact-message').append("<p>Email Not Sent. Something went WRONG!</p>");
+                console.log("error", e)
             });
-        }
-    </script>
+    });
+}
+</script>
 
+<div class="formDiv">
+<h3 id="contact-message"></h3>
     <form id="contact-form">
         <input type="hidden" name="contact_number">
+        <input type="hidden" name="to_email">
         <label>Name</label>
-        <input type="text" name="user_name">
+        <input class="contact" type="text" name="from_name">
+        <br/><br/>
         <label>Email</label>
-        <input type="email" name="user_email">
+        <input class="contact" type="email" name="reply_to">
+        <br/><br/>
         <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
+        <textarea class="contact" name="message"></textarea>
+        <br/><br/>
+        <input class="contactButton" type="submit" value="Send">
+        <br/><br/>
     </form>
-
-
-
-
+</div>
 
 <?php snippet('footer') ?>

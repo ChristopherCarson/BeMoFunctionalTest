@@ -1,1 +1,13 @@
 Title: BeMo Funtional Test
+
+----
+
+ContactFormEmail: Carson@centralsanitary.com
+
+----
+
+GoogleAnalyticsAPI: 123
+
+----
+
+FacebookPixelAPI: 321

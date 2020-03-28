@@ -1463,3 +1463,19 @@ hr {
     position: absolute;
     left: -9999px;
 }
+
+.formDiv {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+}
+
+.contact {
+    font-size: 25px;
+    width: 600px;
+}
+
+.contactButton {
+    font-size: 25px;
+}
