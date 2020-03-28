@@ -77,3 +77,17 @@ Click here to learn more about our money-back guarantee CDA interview preparatio
 **Reference:**
 
 Poole A., Catano, VM., and Cunningham, DP. Predicting performance in Canadian dental schools: the new CDA structured interview, a new personality assessment, and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.
+
+----
+
+Metatags:
+
+<meta name="author" content="name">
+<meta name="keywords" content="bemo test hire chris carson">
+<meta name="DESCRIPTION" content="a bemo test">
+
+----
+
+Gallery:
+
+- cda-interview-guide.jpg

@@ -768,12 +768,14 @@ form div label {
 }
 
 .form-input-field {
+    font-size: 18px;
     width: 70%;
     width: 85%;
     margin-top: 7px;
     padding: 9px;
     outline: none;
     border: none;
+    background-color: #d4d1d1;
 }
 
 .form-input-button {
@@ -1472,10 +1474,10 @@ hr {
 }
 
 .contact {
-    font-size: 25px;
+    font-size: 12px;
     width: 600px;
 }
 
 .contactButton {
-    font-size: 25px;
+    font-size: 12px;
 }

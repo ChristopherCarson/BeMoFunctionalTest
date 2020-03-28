@@ -5,8 +5,8 @@ fields:
   ContactFormEmail:
     label: Contact Form To Email
     type: text
-  GoogleAnalyticsAPI:
-    label: Google Analytics API for Entire Site
+  GoogleAnalyticsID:
+    label: Google Analytics ID for Entire Site
     type: text
   FacebookPixelAPI:
     label: Facebook Pixel API for Entire Site

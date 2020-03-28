@@ -2,8 +2,22 @@ Title: Contact
 
 ----
 
-Text: BeMo Academic Consulting Inc.
+Text:
+
+**BeMo Academic Consulting Inc.**
 Toll Free: 1-855-900-BeMo (2366)
 Email: info@bemoacademicconsulting.com
 
+----
 
+Metatags:
+
+<meta name="author" content="name">
+<meta name="keywords" content="bemo test hire chris carson">
+<meta name="DESCRIPTION" content="a bemo test">
+
+----
+
+Gallery:
+
+- contact-us.png

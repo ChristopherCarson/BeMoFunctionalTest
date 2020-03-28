@@ -1,8 +1,17 @@
 title: Default Page
-preset: page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
 
+columns:
+  - width: 1/2
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: large
+  - width: 1/2 
+    fields:
+      MetaTags:
+        label: Meta Tags
+        type: textarea
+      gallery:
+        type: files
+        query: page.images

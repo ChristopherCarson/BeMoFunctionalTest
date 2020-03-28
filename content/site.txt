@@ -6,8 +6,8 @@ ContactFormEmail: Carson@centralsanitary.com
 
 ----
 
-GoogleAnalyticsAPI: 123
+GoogleAnalyticsID: UA-158362600-1
 
 ----
 
-FacebookPixelAPI: 321
+FacebookPixelID: 509923116348331
