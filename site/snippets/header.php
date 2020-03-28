@@ -4,7 +4,7 @@
 
 <head>
 
-    <?php 
+<?php 
 // grab the google analytics id and facebook pixel id here
 $gaID = $site->GoogleAnalyticsID();
 $fpID = $site->FacebookPixelID();

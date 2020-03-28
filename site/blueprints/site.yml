@@ -8,8 +8,8 @@ fields:
   GoogleAnalyticsID:
     label: Google Analytics ID for Entire Site
     type: text
-  FacebookPixelAPI:
-    label: Facebook Pixel API for Entire Site
+  FacebookPixelID:
+    label: Facebook Pixel ID for Entire Site
     type: text
   pages:
     headline: Pages

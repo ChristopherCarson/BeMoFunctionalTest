@@ -2,12 +2,19 @@ Title: BeMo Funtional Test
 
 ----
 
-ContactFormEmail: Carson@centralsanitary.com
+Contactformemail: Carson@centralsanitary.com
 
 ----
 
-GoogleAnalyticsID: UA-158362600-1
+Googleanalyticsid: UA-158362600-1
 
 ----
 
-FacebookPixelID: 509923116348331
+Facebookpixelid: 509923116348331
+
+----
+
+Pages:
+
+- home
+- contact

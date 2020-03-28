@@ -1416,11 +1416,11 @@ nav ul ul,
 
 .centered {
     position: absolute;
-    top: 750px;
+    top: 35vw;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
 }
 
