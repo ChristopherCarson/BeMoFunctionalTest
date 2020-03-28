@@ -4,7 +4,12 @@
 <! –– place meta tags for page ––>
     <?php echo $page->MetaTags() ?>
 
-    <! –– navigation menu jquery ––>
+    <?php snippet('facebook') ?>
+    </head>
+            <body>
+            <?php snippet('navigation') ?>
+
+            <! –– navigation menu jquery ––>
         <script>
         $('#contactLink').addClass('current');
         </script>
