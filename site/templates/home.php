@@ -22,6 +22,7 @@
             <! –– navigation menu jquery ––>
                 <script>
                 $('#mainLink').addClass('current');
+                $('#mainLinkM').addClass('current');
                 </script>
 
                 <! –– main image and text container ––>

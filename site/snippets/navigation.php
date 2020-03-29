@@ -9,7 +9,6 @@
                             <img src="<?= $image->url() ?>" alt="Site logo" width="167" height="100">
                             <?php endif ?>
                         </div>
-
                         <! –– navigation menu ––>
                             <div id="nwrap">
                                 <nav>
@@ -24,7 +23,31 @@
                                     </ul>
                                 </nav>
                             </div>
+                            <! –– Mpbile navigation menu ––>
+                                <nav role="navigation">
+                                    <div id="menuToggle">
+                                        <input type="checkbox" />
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <ul id="menu">
+                                            <li id="mainLinkM"><a href="home" rel="self">
+                                                    <h1 style="font-size:40px;">Heading</h1>
+                                                </a></li><br />
+                                            <li id="contactLinkM"><a href="contact" rel="self">
+                                                    <h1 style="font-size:40px;">Contact Us</h1>
+                                                </a></li><br />
+                                            <?php if ($user = $kirby->user()): ?>
+                                            <li>
+                                                <a href="<?= url('logout') ?>">
+                                                    <h1 style="font-size:40px;">Logout</h1>
+                                                </a>
+                                            </li>
+                                            <?php endif ?>
 
+                                        </ul>
+                                    </div>
+                                </nav>
                     </div>
                 </div>
             </header>

@@ -12,6 +12,7 @@ $fpID = $site->FacebookPixelID();
     <! –– imports ––>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
         <script type="text/javascript">
         //get ids for Google and Facebook Pixel in Javascript here
         var gaID = "<?php echo $gaID ?>";

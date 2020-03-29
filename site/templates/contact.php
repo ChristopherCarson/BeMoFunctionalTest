@@ -22,6 +22,7 @@
             <! –– navigation menu jquery ––>
                 <script>
                 $('#contactLink').addClass('current');
+                $('#contactLinkM').addClass('current');
                 </script>
 
                 <! –– load iamge and text for page ––>
