@@ -1,17 +1,21 @@
 title: Site
 unlisted: false
 
-fields:
-  ContactFormEmail:
-    label: Contact Form To Email
-    type: text
-  GoogleAnalyticsID:
-    label: Google Analytics ID for entire site
-    type: text
-  FacebookPixelID:
-    label: Facebook Pixel ID for entire site
-    type: text
-  pages:
-    headline: Pages
-    status: published
+columns:
+  - width: 1/2
+    fields:
+      ContactFormEmail:
+        label: Contact Form To Email
+        type: text
+      GoogleAnalyticsID:
+        label: Google Analytics ID for entire site
+        type: text
+      FacebookPixelID:
+        label: Facebook Pixel ID for entire site
+        type: text
+  - width: 1/2
+    fields:
+      pages:
+        headline: Pages
+        status: published
 
