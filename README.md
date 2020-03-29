@@ -1,3 +1,5 @@
+php -S localhost:8000 kirby/router.php
+
 # Kirby Plainkit
 
 Kirby is a file-based CMS.
