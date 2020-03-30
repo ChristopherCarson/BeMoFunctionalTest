@@ -1,5 +1,5 @@
 <! –– top of page / header ––>
-    <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+    <header class="navbar" role="navigation">
         <div id="headwrap">
             <div id="titlelogo">
                 <div id="logo">
