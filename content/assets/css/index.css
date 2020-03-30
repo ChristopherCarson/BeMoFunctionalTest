@@ -163,9 +163,6 @@
             padding: 10px 0;
         }
         
-        ul,
-        ol {}
-        
         .image-left {
             float: left;
             padding: 18px;
@@ -189,100 +186,6 @@
             background: rgba(0, 0, 0, 0.3);
             padding: 10px;
         }
-        /* LIST ELEMENTS */
-        
-        ul.disc {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        
-        ul.circle {
-            list-style-type: circle;
-            padding-left: 20px;
-        }
-        
-        ul.square {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        
-        ol.arabic-numbers {
-            list-style-type: decimal;
-            padding-left: 20px;
-        }
-        
-        ol.upper-alpha {
-            list-style-type: upper-alpha;
-            padding-left: 20px;
-        }
-        
-        ol.lower-alpha {
-            list-style-type: lower-alpha;
-            padding-left: 20px;
-        }
-        
-        ol.upper-roman {
-            list-style-type: upper-roman;
-            padding-left: 20px;
-        }
-        
-        ol.lower-roman {
-            list-style-type: lower-roman;
-            padding-left: 20px;
-        }
-        
-        @font-face {
-            font-family: 'socialicoregular';
-            src: url('fonts/socialico-webfont.eot');
-            src: url('fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/socialico-webfont.woff') format('woff'), url('fonts/socialico-webfont.ttf') format('truetype'), url('fonts/socialico-webfont.svg#socialicoregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        @font-face {
-            font-family: 'socialico_plusregular';
-            src: url('fonts/socialico_plus-webfont.eot');
-            src: url('fonts/socialico_plus-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/socialico_plus-webfont.woff') format('woff'), url('fonts/socialico_plus-webfont.ttf') format('truetype'), url('fonts/socialico_plus-webfont.svg#socialico_plusregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        @font-face {
-            font-family: 'theano_didotregular';
-            src: url('fonts/theanodidot-regular-webfont.eot');
-            src: url('fonts/theanodidot-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/theanodidot-regular-webfont.woff') format('woff'), url('fonts/theanodidot-regular-webfont.ttf') format('truetype'), url('fonts/theanodidot-regular-webfont.svg#theano_didotregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        @font-face {
-            font-family: 'libre_baskervilleregular';
-            src: url('fonts/librebaskerville-regular-webfont.eot');
-            src: url('fonts/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/librebaskerville-regular-webfont.woff') format('woff'), url('fonts/librebaskerville-regular-webfont.ttf') format('truetype'), url('fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        @font-face {
-            font-family: 'sansumiregular';
-            src: url('fonts/Sansumi-Bold-webfont.eot');
-            src: url('fonts/Sansumi-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Sansumi-Bold-webfont.woff') format('woff'), url('fonts/Sansumi-Bold-webfont.ttf') format('truetype'), url('fonts/Sansumi-Bold-webfont.svg#sansumiregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        @font-face {
-            font-family: 'BebasRegular';
-            src: url('fonts/BEBAS___-webfont.eot');
-            src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BEBAS___-webfont.woff') format('woff'), url('fonts/BEBAS___-webfont.ttf') format('truetype'), url('fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        body {
-            font: normal 14px/22px Arial, Helvetica, Geneva, sans-serif;
-            -webkit-font-smoothing: antialiased;
-        }
         
         #wrapper {
             position: relative;
@@ -302,7 +205,6 @@
         
         #titlelogo {
             display: inline-block;
-            float: left;
             width: 25%;
             padding-left: 3%;
         }
@@ -310,8 +212,6 @@
         #logo {
             display: inline-block;
         }
-        
-        #logo img {}
         
         #titlelogo h1 {
             display: inline-block;
@@ -436,8 +336,6 @@
             padding-bottom: 3px;
         }
         
-        nav ul li ul li:hover {}
-        
         .ie8 nav ul li:after {
             display: none;
         }
@@ -481,8 +379,6 @@
             line-height: 18px;
             text-align: center;
         }
-        
-        nav li li a:hover {}
         
         nav li li li li li {
             display: none;
@@ -681,18 +577,6 @@
             padding: 2% 5% 2% 5%;
         }
         
-        #socialicons {
-            text-align: center;
-            float: right;
-            display: inline-block;
-        }
-        
-        #socialicons1 {
-            text-align: center;
-            float: right;
-            display: inline-block;
-        }
-        
         a.social {
             font-family: 'SocialicoRegular';
             font-size: 28px;
@@ -793,77 +677,9 @@
         .form-input-button:hover {
             background-color: rgba(255, 255, 255, .30)!important;
         }
-        /* @end */
-        
-        .ie8 section #padding,
-        ie8 aside,
-        .ie8 #extraContainer2,
-        .ie8 #extraContainer3,
-        .ie8 #extraContainer4,
-        .ie8 #extraContainer5,
-        .ie8 #extraContainer6 {
-            background-image: none!important;
-        }
-        
-        #mwrap {
-            display: inline-block;
-            float: right;
-            padding-right: 3%;
-            padding-top: 4%;
-            display: none;
-            z-index: 1000;
-        }
-        
-        #lt,
-        #lm,
-        #lb {
-            width: 20px;
-            height: 3px;
-            margin-bottom: 2px;
-        }
-        
-        .desktopScreenNavbar {
-            background: red;
-            -webkit-transition: background 1s ease;
-            -moz-transition: background 1s ease;
-            -ms-transition: background 1s ease;
-            -o-transition: background 1s ease;
-            transition: background 1s ease;
-        }
-        
-        .desktopScreenNavbarDropDownMenu {
-            background: #373737;
-            -webkit-transition: background 1s ease;
-            -moz-transition: background 1s ease;
-            -ms-transition: background 1s ease;
-            -o-transition: background 1s ease;
-            transition: background 1s ease;
-            color: white;
-        }
-        
-        .mobileScreenNavbar {
-            background: #373737;
-        }
-        
-        .mobileScreenNavbarDropDownMenu {
-            background: #373737;
-            color: white;
-        }
         
         nav ul li a {
             font-size: 20px;
-        }
-        
-        nav li li a {
-            font-size: 14px;
-        }
-        
-        .desktopScreenNavbar,
-        nav ul ul,
-        .navb,
-        .mobileScreenNavbar,
-        .mobileb {
-            background-color: rgba(255, 255, 255, .9);
         }
         
         .navul {
@@ -953,6 +769,11 @@
         #menu,
         #menuToggle {
             display: none;
+        }
+        
+        .alert,
+        #contact-message {
+            color: red;
         }
         
         @media only screen and (max-device-width: 1000px),
